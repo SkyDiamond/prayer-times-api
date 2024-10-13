@@ -3,7 +3,7 @@ import { PrayerTimesService } from './prayer-times.service';
 import { ApiTags, ApiBody, ApiResponse } from '@nestjs/swagger';
 import { PrayerTimesDto } from './dto/prayer-times.dto';
 import { LocationNameDto } from './dto/location-name.dto';
-import { ReverseGeocodingService } from 'src/reverse-geocoding/reverse-geocoding.service';
+import { ReverseGeocodingService } from '../reverse-geocoding/reverse-geocoding.service';
 
 @ApiTags('Prayer Times')
 @Controller('prayer-times')
